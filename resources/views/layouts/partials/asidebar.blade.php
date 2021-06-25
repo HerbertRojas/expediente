@@ -30,8 +30,8 @@
                 <span class="menu-title" data-i18n="Person">Usuarios</span>
             </a>
         </li>
-        <li class="bold">
-            <a class="waves-effect waves-cyan" href="">
+        <li class="@if(Request::is('archivo')) active @endif bold">
+            <a class="waves-effect waves-cyan @if(Request::is('archivo')) active @endif" href="{{ route('archivo.index') }}">
                 <i class="material-icons">cloud_upload</i>
                 <span class="menu-title" data-i18n="CloudUpload">Subir Archivos</span>
             </a>

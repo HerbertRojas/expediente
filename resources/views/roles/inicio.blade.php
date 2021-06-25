@@ -24,7 +24,7 @@
                                     <th>Slug</th>
                                     <th>Estado</th>
                                     <th>Accion</th>
-
+                                    <th></th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -59,7 +59,7 @@
 
                                                 </form>
                                             </td>
-
+                                            <td></td>
                                         </tr>
                                         @empty
                                         <tr>

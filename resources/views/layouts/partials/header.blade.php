@@ -11,6 +11,10 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- BEGIN: VENDOR CSS-->
 <link rel="stylesheet" type="text/css" href="app-assets/vendors/vendors.min.css">
+<link rel="stylesheet" type="text/css" href="app-assets/vendors/data-tables/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="app-assets/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="app-assets/vendors/data-tables/css/dataTables.checkboxes.css">
+<link rel="stylesheet" type="text/css" href="app-assets/vendors/flag-icon/css/flag-icon.min.css">
 <link rel="stylesheet" type="text/css" href="app-assets/vendors/animate-css/animate.css">
 <link rel="stylesheet" type="text/css" href="app-assets/vendors/chartist-js/chartist.min.css">
 <link rel="stylesheet" type="text/css" href="app-assets/vendors/chartist-js/chartist-plugin-tooltip.css">
@@ -18,10 +22,14 @@
 <!-- BEGIN: Page Level CSS-->
 <link rel="stylesheet" type="text/css" href="app-assets/css/themes/vertical-modern-menu-template/materialize.css">
 <link rel="stylesheet" type="text/css" href="app-assets/css/themes/vertical-modern-menu-template/style.css">
+<link rel="stylesheet" type="text/css" href="app-assets/css/pages/data-tables.css">
+<link rel="stylesheet" type="text/css" href="app-assets/css/pages/app-invoice.css">
 <link rel="stylesheet" type="text/css" href="app-assets/css/pages/dashboard-modern.css">
 <link rel="stylesheet" type="text/css" href="app-assets/css/pages/intro.css">
+<link rel="stylesheet" type="text/css" href="app-assets/css/pages/app-file-manager.css">
+<link rel="stylesheet" type="text/css" href="app-assets/css/pages/widget-timeline.css">
 <!-- END: Page Level CSS-->
 <!-- BEGIN: Custom CSS-->
 <link rel="stylesheet" type="text/css" href="app-assets/css/custom/custom.css">
 <!-- END: Custom CSS-->
-@yield('estilos')
+

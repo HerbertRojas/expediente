@@ -1,16 +1,4 @@
 <!DOCTYPE html>
-<!--
-Template Name: Materialize - Material Design Admin Template
-Author: PixInvent
-Website: http://www.pixinvent.com/
-Contact: hello@pixinvent.com
-Follow: www.twitter.com/pixinvents
-Like: www.facebook.com/pixinvents
-Purchase: https://themeforest.net/item/materialize-material-design-admin-template/11446068?ref=pixinvent
-Renew Support: https://themeforest.net/item/materialize-material-design-admin-template/11446068?ref=pixinvent
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
-
--->
 <html class="loading" lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-textdirection="ltr">
 <!-- BEGIN: Head-->
 
@@ -32,6 +20,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- BEGIN: Page Main-->
     <div id="main">
         <div class="row">
+            <div class="content-wrapper-before blue-grey lighten-5"></div>
             <!--<div class="content-wrapper-before gradient-45deg-indigo-purple"></div>-->
             <div class="col s12">
                 <div class="container">
